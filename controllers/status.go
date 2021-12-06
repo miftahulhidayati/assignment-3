@@ -23,7 +23,7 @@ func UpdateJson() {
 	var statusDescription models.StatusDescription
 	var statusShow models.StatusShow
 	min := 1
-	max := 10
+	max := 100
 	status.Water = rand.Intn(max - min)
 	status.Wind = rand.Intn(max - min)
 
