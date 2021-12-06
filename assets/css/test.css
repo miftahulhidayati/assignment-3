@@ -37,6 +37,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   color: #777;
+  height: 100%;
   overflow-x: hidden;
   background: #fff !important;
 }
@@ -592,7 +593,7 @@ nav ul li.active {
   font-weight: 600;
   margin: 0 0 25px;
   animation-delay: 1.5s;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 62px;
 }
 .slider-area .carousel-inner .item .carousel-captions .content p {
