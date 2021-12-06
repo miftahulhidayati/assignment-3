@@ -23,6 +23,6 @@ func main() {
 	router.Static("/images", "./assets/images")
 	router.Static("/font", "./assets/font")
 	router.LoadHTMLGlob("templates/*.html")
-	router.GET("/index", controllers.GetStatus)
+	router.GET("/", controllers.GetStatus)
 	router.Run(":8080")
 }
