@@ -18,14 +18,17 @@ func GetStatus(c *gin.Context) {
 
 	c.HTML(http.StatusOK, "template.html", data)
 }
+func randInt(min int, max int) int {
+	return min + rand.Intn(max-min)
+}
 func UpdateJson() {
 	var status models.Status
 	var statusDescription models.StatusDescription
 	var statusShow models.StatusShow
 	min := 1
 	max := 100
-	status.Water = rand.Intn(max - min)
-	status.Wind = rand.Intn(max - min)
+	status.Water = randInt(min, max)
+	status.Wind = randInt(min, max)
 
 	if status.Water <= 5 {
 		statusDescription.Water = "Aman"
