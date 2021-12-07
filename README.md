@@ -1,6 +1,6 @@
 # assignment-3
 
-Sebuah microservice untuk meng-update sebuah file json setiap 15 detik dengan angka random antara 1-100 untuk value water dan wind. 
+A microservice to update a json file every 15 seconds with random numbers between 1-100 for water and wind values.
 
 ## Installation
 
@@ -10,4 +10,9 @@ To install this, you need to install Go and set your Go workspace first.
 
 ```sh
 $ go get github.com/miftahulhidayati/assignment-3
+```
+2. Run
+
+```sh
+$ go run main.go
 ```
