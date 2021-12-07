@@ -8,11 +8,11 @@ To install this, you need to install Go and set your Go workspace first.
 
 1. The first need [Go](https://golang.org/) installed.
 
+2. Clone this repository
 ```sh
 $ go get github.com/miftahulhidayati/assignment-3
 ```
 2. Run
-
 ```sh
 $ go run main.go
 ```
